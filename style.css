@@ -1,0 +1,210 @@
+:root {
+  --pr-color: #048853;
+}
+/* First Layer */
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
+}
+.navbar {
+  z-index: 3;
+}
+* {
+  z-index: 2;
+}
+.accsent-img {
+  z-index: 1;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.navlink.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  color: var(--pr-color);
+  height: 40px;
+  width: 133px;
+  border: none;
+}
+.button-secondary {
+  color: #fff;
+  height: 40px;
+  width: 133px;
+  border: none;
+}
+.card-temukan {
+  background-color: #fff;
+  transition: all 0.2s ease-in;
+}
+.card-temukan:hover {
+  background-color: var(--pr-color);
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  transition: all 0.2s ease-in;
+}
+.card-temukan p {
+  color: var(--pr-color);
+}
+.card-temukan:hover p {
+  color: #fff;
+}
+/* First Layer */
+/* Second Layer */
+
+#layanan {
+  padding: 100px 0;
+}
+#angka-18 {
+  font-size: 18px;
+}
+#angka-48 {
+  font-size: 48px;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #ffff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 2s ease-in;
+}
+.circle-icon {
+  height: 70px;
+  width: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+  transition: all 0.4s ease-in;
+}
+.card-layanan p {
+  color: #000;
+  transition: all 0.7s ease-in;
+}
+
+.card-layanan h3 {
+  color: var(--pr-color);
+  font-size: 28px;
+  transition: all 0.7s ease-in;
+}
+
+/* Hover */
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: var(--pr-color);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  transition: all 0.2s ease-in;
+}
+.card-layanan:hover .circle-icon {
+  background-color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover h3 {
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+.card-layanan:hover p {
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+/* Hover */
+/* Second Layer */
+
+/* Search */
+#search {
+  background: url(Assets/Img-search.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#search h2 {
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0em;
+  line-height: 72px;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+}
+#search p {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  border-radius: 0 0 0 0;
+}
+.nav-tabs .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  color: var(--pr-color);
+}
+.nav-tabs .nav-link:active {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  color: var(--pr-color);
+}
+.input-cari {
+  height: 88px;
+}
+.input-cari:focus {
+  border: none;
+}
+.input-cari .button-secondary {
+  width: 200px;
+  height: 88px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr-color);
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+}
+.input-cari .button-secondary {
+  height: 88px;
+  background-color: #ffff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 36px;
+  font-weight: 500;
+  border-radius: 0 0 0 10px;
+}
+.input-cari .button-primary {
+  height: 88px;
+  background-color: var(--pr-color);
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  font-weight: 500;
+  border-radius: 0 0 0 10px;
+}
+.input-cari .form-control {
+  color: var(--pr-color);
+}
+
+/* Rekomendasi */
+#h2-rekomendasi {
+  font-size: 48px;
+  color: var(--pr-color);
+  font-weight: 500;
+}
+.card {
+  width: 380px;
+  height: 489px;
+}
